@@ -1,4 +1,19 @@
 - commits:
+    - subject: Remove unnecessary override of IMAGE_ROOTFS_MAXSIZE
+      hash: 774889f3dced851e39468d97c5b7c83e1cb25e80
+      body: |
+        This is unnecessary since 2.47+
+
+        See https://github.com/balena-os/meta-balena/pull/1813 for more detail
+      footer:
+        Changelog-entry: Remove unnecessary override of IMAGE_ROOTFS_MAXSIZE
+        changelog-entry: Remove unnecessary override of IMAGE_ROOTFS_MAXSIZE
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+  version: 2.41.1+rev2
+  date: 2020-02-06T17:10:35.649Z
+- commits:
     - subject: Rename meta-resin to meta-balena in repository
       hash: a6654dc76da74bc55a6c2a8c06aada2cd8a221b6
       body: ''
